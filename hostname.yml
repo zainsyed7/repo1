@@ -4,4 +4,4 @@
 
   tasks:
     - name: Get server hostname
-      shell: hostname
+      debug: var={{ansible_hostname}}
